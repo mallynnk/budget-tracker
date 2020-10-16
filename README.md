@@ -1,7 +1,6 @@
 # Budget Tracker
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Description](#description)
 - [Deployed Application](#deployed-aplication)
 - [User Story](#user-story)
