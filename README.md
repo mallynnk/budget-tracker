@@ -11,7 +11,10 @@
 - [Questions](#questions)
 
 ## Description
-A Mobile-First, Progressive Web Application (PWA) Budget Tracker that allows a user to track income and expenses online and offline. This project was provided with most of the frontend features intact, I added offline capabilities, and online data storage. IndexDB allows for local storage of data if the internet connection is lost, with site data managed by an added service worker. When the connection is restablished, data created from work done in the interim is sent to the database. The Heroku Site's data is hosted on MongoDB Atlas. By clicking the plus sign in the url bar you can install an icon of the site on your machine.
+A Mobile-First, Progressive Web Application (PWA) Budget Tracker that allows a user to track income and expenses online and offline. I added offline capabilities and online data storage to this application. Site data is managed by an added service worker and IndexDB enables local storge for offline use or if internet connection fails. When the user regains online capabilities, the data created from work done in offline mode is sent to the database. The Heroku Site's data is hosted on MongoDB Atlas. By clicking the plus sign in the url bar you can install an icon of the site on your machine.
+
+When the user inputs an expense or deposit, they will receive a notification that they have added an expense or deposit. When the user reestablishes an internet connection, the deposits or expenses added while they were offline are added to their transaction history and their totals are updated. 
+
 
 ### [Deployed Application]
 
