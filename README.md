@@ -18,6 +18,8 @@ When the user inputs an expense or deposit, they will receive a notification tha
 
 **[Deployed Application] (https://polar-inlet-39292.herokuapp.com)**
 
+![Screenshot](public/icons/main.png)
+
 
 ## User Story
 
